@@ -5,7 +5,7 @@ substitutions:
   # The voice assistant is waiting for a voice command (after being triggered by the wake word)
   voice_assist_waiting_for_command_phase_id: '2'
   # The voice assistant is listening for a voice command
-  voice_assist_listening_for_command_phase_id: '3'
+  voice_assist_listening_for_command_phase_id: '3'F
   # The voice assistant is currently processing the command
   voice_assist_thinking_phase_id: '4'
   # The voice assistant is replying to the command
@@ -1725,6 +1725,9 @@ micro_wake_word:
       id: hey_jarvis
     - model: hey_mycroft
       id: hey_mycroft
+    - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
+      id: stop
+      internal: true
     - model: https://raw.githubusercontent.com/narbusmaximus/alice-wake-word/main/hey_alice.json
       id: hey_alice
   vad:
