@@ -1728,7 +1728,7 @@ micro_wake_word:
     - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
       id: stop
       internal: true
-    - model: https://raw.githubusercontent.com/narbusmaximus/alice-wake-word/c1f94160d1b322e71da8dcdcf1ac2bbb49bbe1ca/hey_alice.json
+    - model: https://raw.githubusercontent.com/narbusmaximus/alice-wake-word/dec0bd9/hey_alice.json
       id: hey_alice
   vad:
   on_wake_word_detected:
