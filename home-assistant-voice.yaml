@@ -39,8 +39,6 @@ esphome:
   friendly_name: Home Assistant Voice
   name_add_mac_suffix: true
   min_version: 2026.1.0
-  platformio_options:
-  board_build.jobs: 1
   on_boot:
     priority: 375
     then:
