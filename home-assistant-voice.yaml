@@ -1725,9 +1725,8 @@ micro_wake_word:
       id: hey_jarvis
     - model: hey_mycroft
       id: hey_mycroft
-    - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
-      id: stop
-      internal: true
+    - model: https://raw.githubusercontent.com/narbusmaximus/alice-wake-word/main/hey_alice.json
+      id: hey_alice
   vad:
   on_wake_word_detected:
     # If the wake word is detected when the device is muted (Possible with the software mute switch): Do nothing
